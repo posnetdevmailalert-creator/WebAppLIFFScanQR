@@ -1,0 +1,5 @@
+window.POSNET_CONFIG = {
+  LIFF_ID: "YOUR_LIFF_ID",
+  DEFAULT_LANGUAGE: "th",
+  DEFAULT_THEME: "light"
+};

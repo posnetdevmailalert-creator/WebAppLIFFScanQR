@@ -1,5 +1,5 @@
 window.POSNET_CONFIG = {
-  LIFF_ID: "YOUR_LIFF_ID",
+  LIFF_ID: "2012272387-nPt9jOoO",
   DEFAULT_LANGUAGE: "th",
   DEFAULT_THEME: "light"
 };

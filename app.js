@@ -311,3 +311,12 @@
     } catch (_) { /* Explicit authentication action reports failures to the user. */ }
   })();
 })();
+
+function setScannerPlaceholder(visible) {
+    const placeholder = $("placeholder-qr");
+
+    if (!placeholder) return;
+
+    placeholder.hidden = !visible;
+    placeholder.style.display = visible ? "flex" : "none";
+}

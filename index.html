@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="th">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -13,31 +12,19 @@
   <script src="./config.js"></script>
   <script src="./app.js" defer></script>
 </head>
-
 <body>
-  <div class="ambient ambient-one"></div>
-  <div class="ambient ambient-two"></div>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
   <div class="app-shell">
     <header class="topbar">
       <a class="brand" href="#" aria-label="POSNET home">
-        <span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true">
-            <path d="M11 30V10h10a7 7 0 0 1 0 14h-3" />
-            <path d="M17 24h5" />
-          </svg></span>
+        <span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M11 30V10h10a7 7 0 0 1 0 14h-3" /><path d="M17 24h5" /></svg></span>
         <span class="brand-copy"><strong>POSNET</strong><small>E-SLIP SCANNER</small></span>
       </a>
       <div class="header-actions">
         <span class="secure-pill"><i></i><span data-i18n="secure">SECURE SESSION</span></span>
-        <button class="icon-button theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme"
-          title="Toggle theme">
-          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="12" cy="12" r="4" />
-            <path
-              d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" />
-          </svg>
-          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M20.5 14.1A8.5 8.5 0 0 1 9.9 3.5 8.6 8.6 0 1 0 20.5 14.1Z" />
-          </svg>
+        <button class="icon-button theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.1A8.5 8.5 0 0 1 9.9 3.5 8.6 8.6 0 1 0 20.5 14.1Z"/></svg>
         </button>
         <button class="language-toggle" id="languageToggle" type="button">EN</button>
       </div>
@@ -46,28 +33,19 @@
     <main>
       <section class="hero">
         <div class="hero-copy">
-          <div class="overline"><span class="overline-line"></span><span data-i18n="overline">PAYMENT
-              AUTHENTICATION</span></div>
+          <div class="overline"><span class="overline-line"></span><span data-i18n="overline">PAYMENT AUTHENTICATION</span></div>
           <h1 data-i18n="title">E-Slip <em>Scanner</em></h1>
           <p data-i18n="subtitle">ยืนยันตัวตนผ่าน LINE แล้วสแกน QR Code บนสลิปอย่างปลอดภัย</p>
-          <div class="hero-meta"><span class="meta-icon">✦</span><span data-i18n="meta">Fast. Secure. Verified.</span>
-          </div>
+          <div class="hero-meta"><span class="meta-icon">✦</span><span data-i18n="meta">Fast. Secure. Verified.</span></div>
         </div>
         <div class="hero-art" aria-hidden="true">
-          <div class="art-ring ring-one"></div>
-          <div class="art-ring ring-two"></div>
+          <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
           <div class="art-qr">
-            <span class="finder f1"><i></i></span><span class="finder f2"><i></i></span><span
-              class="finder f3"><i></i></span>
-            <b class="qr-pixel p1"></b><b class="qr-pixel p2"></b><b class="qr-pixel p3"></b><b
-              class="qr-pixel p4"></b><b class="qr-pixel p5"></b><b class="qr-pixel p6"></b><b
-              class="qr-pixel p7"></b><b class="qr-pixel p8"></b><b class="qr-pixel p9"></b>
+            <span class="finder f1"><i></i></span><span class="finder f2"><i></i></span><span class="finder f3"><i></i></span>
+            <b class="qr-pixel p1"></b><b class="qr-pixel p2"></b><b class="qr-pixel p3"></b><b class="qr-pixel p4"></b><b class="qr-pixel p5"></b><b class="qr-pixel p6"></b><b class="qr-pixel p7"></b><b class="qr-pixel p8"></b><b class="qr-pixel p9"></b>
           </div>
-          <div class="art-check"><svg viewBox="0 0 24 24">
-              <path d="m5 12 4 4L19 6" />
-            </svg></div>
-          <div class="art-spark spark-one"></div>
-          <div class="art-spark spark-two"></div>
+          <div class="art-check"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></div>
+          <div class="art-spark spark-one"></div><div class="art-spark spark-two"></div>
         </div>
       </section>
 
@@ -75,37 +53,24 @@
         <article class="panel auth-panel">
           <div class="panel-heading">
             <div class="step-number">01</div>
-            <div>
-              <div class="panel-eyebrow" data-i18n="stepOne">STEP ONE</div>
-              <h2 data-i18n="authTitle">LINE Authentication</h2>
-            </div>
-            <span class="step-state" id="authState"><span class="state-dot"></span><span data-i18n="notConnected">Not
-                connected</span></span>
+            <div><div class="panel-eyebrow" data-i18n="stepOne">STEP ONE</div><h2 data-i18n="authTitle">LINE Authentication</h2></div>
+            <span class="step-state" id="authState"><span class="state-dot"></span><span data-i18n="notConnected">Not connected</span></span>
           </div>
           <p class="panel-description" data-i18n="authDesc">เชื่อมต่อผ่าน LINE LIFF เพื่อเริ่มใช้งานเครื่องสแกน</p>
           <div class="line-identity">
-            <div class="line-symbol"><svg viewBox="0 0 40 40" aria-hidden="true">
-                <path
-                  d="M33 18.3c0-7.1-7.2-12.8-16.1-12.8S.8 11.2.8 18.3c0 6.3 5.7 11.5 13.4 12.6.5.1 1.1.4 1.2.9.1.4.1 1-.1 1.5l-.2 1.3c-.1.4-.3 1.6 1.4.9 1.7-.7 9.1-5.4 12.4-9.2 2.3-2.5 4.1-5 4.1-8Z"
-                  transform="translate(3 1) scale(.95)" />
-              </svg></div>
-            <div class="line-text"><strong>LINE LIFF</strong><span data-i18n="lineDesc">Secure sign-in with LINE</span>
-            </div>
+            <div class="line-symbol"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M33 18.3c0-7.1-7.2-12.8-16.1-12.8S.8 11.2.8 18.3c0 6.3 5.7 11.5 13.4 12.6.5.1 1.1.4 1.2.9.1.4.1 1-.1 1.5l-.2 1.3c-.1.4-.3 1.6 1.4.9 1.7-.7 9.1-5.4 12.4-9.2 2.3-2.5 4.1-5 4.1-8Z" transform="translate(3 1) scale(.95)" /></svg></div>
+            <div class="line-text"><strong>LINE LIFF</strong><span data-i18n="lineDesc">Secure sign-in with LINE</span></div>
             <span class="line-badge">LIFF</span>
           </div>
           <button class="button button-line" id="authBtn" type="button">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M12 3v12m-5-5 5 5 5-5M4 17v3h16v-3" />
-            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v3h16v-3"/></svg>
             <span data-i18n="authButton">Authenticate with LINE</span>
             <span class="button-arrow">↗</span>
           </button>
-          <div class="auth-message" id="authMessage" role="status" aria-live="polite" data-i18n="authHint">LINE
-            authentication is required before scanning.</div>
+          <div class="auth-message" id="authMessage" role="status" aria-live="polite" data-i18n="authHint">LINE authentication is required before scanning.</div>
           <div class="profile" id="profile" hidden>
             <div class="avatar" id="avatar">L</div>
-            <div class="profile-copy"><strong id="profileName">LINE User</strong><span
-                data-i18n="authenticated">Authenticated with LINE</span></div>
+            <div class="profile-copy"><strong id="profileName">LINE User</strong><span data-i18n="authenticated">Authenticated with LINE</span></div>
             <span class="verified-badge" aria-label="Authenticated">✓</span>
           </div>
         </article>
@@ -113,56 +78,34 @@
         <article class="panel scan-panel">
           <div class="panel-heading">
             <div class="step-number">02</div>
-            <div>
-              <div class="panel-eyebrow" data-i18n="stepTwo">STEP TWO</div>
-              <h2 data-i18n="scanTitle">Scan E-Slip QR</h2>
-            </div>
-            <span class="camera-label"><span class="camera-dot"></span><span
-                data-i18n="cameraLabel">CAMERA</span></span>
+            <div><div class="panel-eyebrow" data-i18n="stepTwo">STEP TWO</div><h2 data-i18n="scanTitle">Scan E-Slip QR</h2></div>
+            <span class="camera-label"><span class="camera-dot"></span><span data-i18n="cameraLabel">CAMERA</span></span>
           </div>
           <p class="panel-description" data-i18n="scanDesc">วาง QR Code ของสลิปไว้ตรงกลางกรอบสแกน</p>
           <div class="scanner-frame" id="scannerFrame">
             <div id="qr-reader"></div>
             <div class="scanner-placeholder" id="scannerPlaceholder">
-              <div id="placeholder-qr" class="placeholder-qr">
-                <div class="placeholder-icon">▦</div>
-                <p>พร้อมสแกน QR Code</p>
-                <span>กดปุ่มเริ่มสแกนเพื่อเปิดกล้อง</span>
-              </div>
+              <div class="placeholder-qr"><span></span><span></span><span></span><span></span><b></b></div>
               <strong data-i18n="scannerReady">Scanner ready</strong>
               <span data-i18n="scannerHint">Authenticate with LINE to enable camera access</span>
             </div>
-            <div class="scan-guide" id="scanGuide" hidden aria-hidden="true"><i class="guide-corner c-tl"></i><i
-                class="guide-corner c-tr"></i><i class="guide-corner c-bl"></i><i class="guide-corner c-br"></i><span
-                class="guide-line"></span></div>
+            <div class="scan-guide" id="scanGuide" hidden aria-hidden="true"><i class="guide-corner c-tl"></i><i class="guide-corner c-tr"></i><i class="guide-corner c-bl"></i><i class="guide-corner c-br"></i><span class="guide-line"></span></div>
           </div>
           <div class="scan-actions">
             <button class="button button-primary" id="scanBtn" type="button" disabled>
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 8V4h4m8 0h4v4M20 16v4h-4M8 20H4v-4M8 8h3v3H8zM14 8h3v3h-3zM8 14h3v3H8zM14 14h3v3h-3z" />
-              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8V4h4m8 0h4v4M20 16v4h-4M8 20H4v-4M8 8h3v3H8zM14 8h3v3h-3zM8 14h3v3H8zM14 14h3v3h-3z"/></svg>
               <span data-i18n="scanButton">Start QR scanner</span>
             </button>
             <button class="button button-stop" id="stopBtn" type="button" hidden data-i18n="stopButton">Stop</button>
           </div>
-          <div class="scan-feedback" id="scanFeedback" role="status" aria-live="polite"><span
-              class="feedback-icon">i</span><span data-i18n="scanLocked">Authenticate with LINE first to unlock the
-              scanner.</span></div>
+          <div class="scan-feedback" id="scanFeedback" role="status" aria-live="polite"><span class="feedback-icon">i</span><span data-i18n="scanLocked">Authenticate with LINE first to unlock the scanner.</span></div>
           <div class="qr-result" id="qrResult" hidden>
-            <div class="qr-result-heading"><span class="result-check">✓</span>
-              <div><strong data-i18n="scanSuccess">QR code captured</strong><small data-i18n="scanSuccessDesc">Decoded
-                  content is ready to use.</small></div>
-            </div>
+            <div class="qr-result-heading"><span class="result-check">✓</span><div><strong data-i18n="scanSuccess">QR code captured</strong><small data-i18n="scanSuccessDesc">Decoded content is ready to use.</small></div></div>
             <div class="decoded-label" data-i18n="decodedLabel">DECODED QR CONTENT</div>
             <div class="decoded-value" id="decodedValue"></div>
-            <button class="button button-ghost" id="copyBtn" type="button" data-i18n="copyButton">Copy QR
-              content</button>
+            <button class="button button-ghost" id="copyBtn" type="button" data-i18n="copyButton">Copy QR content</button>
           </div>
-          <p class="privacy-note"><svg viewBox="0 0 24 24">
-              <rect x="5" y="10" width="14" height="11" rx="2" />
-              <path d="M8 10V7a4 4 0 0 1 8 0v3" />
-            </svg><span data-i18n="privacy">QR content is shown locally. No payment verification API is called.</span>
-          </p>
+          <p class="privacy-note"><svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span data-i18n="privacy">QR content is shown locally. No payment verification API is called.</span></p>
         </article>
       </section>
 
@@ -174,5 +117,4 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
   </div>
 </body>
-
 </html>
